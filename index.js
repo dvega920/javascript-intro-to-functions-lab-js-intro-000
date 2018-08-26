@@ -13,3 +13,15 @@ function logShout(spy){
 function logWhisper(spy){
     console.log('hello'.toLowerCase())
 }
+
+function sayHiToGrandma(string){
+if (string === string.toLowerCase()){
+  return 'I can\'t hear you'
+}
+else if(string === string.toUpperCase()){
+  return string.toUpperCase()
+}
+else if (string === 'I love you, Grandma.'){
+  return 'I love you, too.'
+}
+}
